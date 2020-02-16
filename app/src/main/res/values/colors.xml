@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/holo_purple</color>
+    <color name="colorPrimaryDark">#FFFF8664</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Nowy">#00000000</color>
+</resources>

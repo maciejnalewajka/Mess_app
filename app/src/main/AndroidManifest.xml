@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.messenger.messenger">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="pl.example.messenger.messenger.messages.LatestMessagesActivity">
+        </activity>
+        <activity android:name="pl.example.messenger.messenger.login_register.RegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="pl.example.messenger.messenger.login_register.LoginActivity"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name="pl.example.messenger.messenger.messages.NewMessageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.example.messenger.messenger.messages.LatestMessagesActivity" />
+        </activity>
+        <activity android:name="pl.example.messenger.messenger.messages.ChatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.example.messenger.messenger.messages.LatestMessagesActivity" />
+        </activity>
+    </application>
+
+</manifest>
