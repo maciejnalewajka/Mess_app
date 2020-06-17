@@ -1,4 +1,6 @@
-## Mess_app
+# Mess_app
+
+### Trzeci projekt
 
 ![Alt text](https://github.com/maciejnalewajka/Mess_app/blob/master/ph%20(1).jpg)
 ![Alt text](https://github.com/maciejnalewajka/Mess_app/blob/master/ph%20(2).jpg)
